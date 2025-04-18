@@ -10,7 +10,9 @@ dependencies:
   - matplotlib
   - seaborn
   - scipy
-  - jupyter
+  - notebook=7
+  - jupyterlab
+  - jupyter_server
   - pip
   - pip:
       - fastapi

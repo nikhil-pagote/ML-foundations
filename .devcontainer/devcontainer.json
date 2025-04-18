@@ -5,13 +5,26 @@
   },
   "remoteUser": "vscode",
   "forwardPorts": [8888],
-  "postCreateCommand": "git config --global user.email \"nikhil.pagote@gmail.com\" && git config --global user.name \"Nikhil Pagote\" && jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --NotebookApp.token=''",
+  "postCreateCommand": "git config --global user.email \"nikhil.pagote@gmail.com\" && git config --global user.name \"Nikhil Pagote\" && jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --ServerApp.token=''",
 
   "customizations": {
     "vscode": {
       "extensions": [
         "Blackboxapp.blackbox",
-        "Blackboxapp.blackboxagent"
+        "Blackboxapp.blackboxagent",
+        "ms-toolsai.python-ds-extension-pack",
+        "devstand.vscode-dockerfile-wizard",
+        "ms-python.black-formatter",
+        "oderwat.indent-rainbow",
+        "esbenp.prettier-vscode",
+        "ms-python.pylint",
+        "mechatroner.rainbow-csv",
+        "redhat.vscode-yaml",
+        "visualstudioexptteam.v",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "eamodio.gitlens",
+        "donjayamanne.githint",
+        "leodevbro.blockmanager"
       ],
       "settings": {
         "python.linting.enabled": true,
